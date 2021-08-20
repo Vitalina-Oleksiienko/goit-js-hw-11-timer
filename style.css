@@ -7,8 +7,22 @@
 .timer {
   display: flex;
   align-items: center;
+  border: 1px solid white;
+  border-radius: 10px;
+  height: 65px;
+  width: 298px;
+  background: teal;
+  padding: 0px 20px 0px 20px;
+  position: absolute;
 }
 
 .field {
-  background-color: forestgreen;
+  float: left;
+  padding: 5px;
+  width: 48px;
+  height: 55px;
+  position: relative;
+  display: block;
+}
+.value {
 }

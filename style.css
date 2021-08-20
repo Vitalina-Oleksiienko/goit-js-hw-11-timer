@@ -1,0 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.timer {
+  display: flex;
+  align-items: center;
+}
+
+.field {
+  background-color: forestgreen;
+}
